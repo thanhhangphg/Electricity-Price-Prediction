@@ -35,6 +35,3 @@ Open:
 
 ## Results (summary)
 Models generally predict typical price ranges well, while **extreme price spikes** are harder to capture with the available features. See `electricity_price_prediction_report.pdf` for discussion and metrics.
-
-## License
-MIT — see `LICENSE`.
