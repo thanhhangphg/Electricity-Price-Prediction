@@ -15,10 +15,10 @@ This project expects the raw dataset file:
 **The dataset is not included** (often too large and/or has licensing constraints).  
 If you have the file locally, place it at the path above and run the notebook.
 
-Data sources referenced in the report include Fingrid (renewables & balancing market), Nord Pool (day-ahead prices), and Statistics Finland (gas prices). See the report in `reports/`.
+Data sources referenced in the report include Fingrid (renewables & balancing market), Nord Pool (day-ahead prices), and Statistics Finland (gas prices).
 
 ## Setup
-### Option A — pip
+### pip
 ```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate
@@ -31,10 +31,10 @@ pip install -r requirements.txt
 jupyter lab
 ```
 Open:
-- `notebooks/01_data_preprocessing_and_visualization.ipynb`
+- `electricity_price_prediction_project.ipynb`
 
 ## Results (summary)
-Models generally predict typical price ranges well, while **extreme price spikes** are harder to capture with the available features. See `reports/Group_26_Report.pdf` for discussion and metrics.
+Models generally predict typical price ranges well, while **extreme price spikes** are harder to capture with the available features. See `electricity_price_prediction_report.pdf` for discussion and metrics.
 
 ## License
 MIT — see `LICENSE`.
